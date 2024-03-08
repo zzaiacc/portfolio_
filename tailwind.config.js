@@ -3,6 +3,7 @@ module.exports = {
     // Caminhos para seus componentes React
     "./components/**/*.jsx",
     "./pages/**/*.jsx",
+    "./node_modules/tw-elements/dist/js/**/*.js",
   ],
 
   theme: {
@@ -22,5 +23,6 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("tw-elements/dist/plugin.cjs")],
+  darkMode: "class",
 };
