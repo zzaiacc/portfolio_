@@ -44,11 +44,11 @@ const About = () => {
             </p>
             <div>
               {aboutMe.map((skills) => (
-                <div className="lg:mt-[80px] md:mt-[60px] sm:mt-[30px] xs:mt-[20px]">
-                  <h3 className="text-purple-800 font-semibold lg:text-[25px] md:text-[20px] sm:text-[15px] xm:text-[13px]">
+                <div className="lg:mt-[80px] md:mt-[60px] sm:mt-[30px] xs:mt-[20px] lg:text-[32px]">
+                  <h3 className="text-purple-800 font-black  md:text-[20px] sm:text-[15px] xm:text-[13px]">
                     {skills.skill}
                   </h3>
-                  <p className="font-medium text-[22px] md:text-[18px] sm:text-[13px] xm:text-[10px]">
+                  <p className="font-medium ] md:text-[18px] sm:text-[13px] xm:text-[10px]">
                     {skills.description}
                   </p>
                 </div>
