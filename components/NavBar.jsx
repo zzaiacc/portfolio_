@@ -93,7 +93,7 @@ export default function NavBar() {
           display: block;
           position: absolute;
           width: 100%;
-          height: 100vh;
+          height: 80vh;
           top: 0;
           left: 0;
           background: #7e22ce;
