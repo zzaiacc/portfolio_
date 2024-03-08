@@ -33,7 +33,7 @@ const About = () => {
             <Image src={EULD} />
           </div>
           <div className="max-w-[70%]">
-            <h2 className="font-black text-purple-800 lg:text-[5rem] md:text-[3.5rem] xs:text-[1.5rem] lg:tracking-[-10px] md:tracking-[-5px]">
+            <h2 className="font-black text-purple-800 lg:text-[5rem] md:text-[3.5rem] xs:text-[1.5rem]">
               ABOUT ME
             </h2>
             <p className="font-medium text-[22px]  md:text-[18px] sm:text-[13px] xm:text-[10px]">
