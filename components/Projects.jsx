@@ -11,9 +11,9 @@ const Projects = () => {
 
       <div>
         <ul className="gap-10 flex flex-col max-w-[100vw]">
-          <li className="bg-purple-800 p-[20px] lg:flex md:flex sm:flex text-white lg:w-[100%] md:w-[80%]  relative rounded-md mx-auto  lg:justify-start xs:justify-center sm:justify-center">
+          <li className="bg-purple-800 mx-auto p-[20px] lg:flex md:flex sm:flex  text-white lg:w-[100%] md:w-[80%]  relative rounded-md lg:justify-start sm:justify-center">
             <Image src={WG} width={350} />
-            <div className="lg:pl-[45px] sm:pl-[30px] lg:block lg:text-start md:flex md:items-center md:text-center sm:flex sm:items-center sm:text-center ">
+            <div className="lg:pl-[45px] sm:pl-[30px] lg:block lg:text-start md:flex md:items-center md:text-center sm:flex sm:items-center sm:text-center xs:text-center ">
               <h2 className="font-black text-[40px]  xs:mt-5 lg:mt-0 md:mt-0 sm:mt-0">
                 WEARING GLORY
               </h2>
