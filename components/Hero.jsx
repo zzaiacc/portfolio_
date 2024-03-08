@@ -21,7 +21,7 @@ const Hero = () => {
               KAUAN ZAJACC
             </h2>
 
-            <h2 className="lg:absolute text-center lg:text-[189px] md:text-[2rem] lg:mb-[65px]  left-0 bottom-[120px] lg:px-[94px] lg:word-spacing-[5rem]">
+            <h2 className="lg:absolute text-center lg:text-[189px]  left-0 bottom-[224px] lg:px-[94px] lg:word-spacing-[5rem]">
               FRONT <span className="relative  lg:z-10 lg:pl-[5rem]">END</span>
             </h2>
             <h2 className=" lg:absolute text-center  lg:text-[189px] mb-[3%]  bottom-0  right-0 lg:px-[94px] z-10">
