@@ -9,7 +9,7 @@ import NavBar from "./NavBar";
 const Hero = () => {
   return (
     <div className="m-[20px] align-middle lg:h-[100vh] md:h-[85vh] sm:min-h-[750px] max-w-[100vw] ">
-      <div className="bg-gradient-to-br  from-purple-500 via-purple-600 to-purple-700 lg:h-[100vh] md:h-[80vh]  xs:h-[80vh]  relative rounded-2xl max-w-[97vw] ">
+      <div className="bg-gradient-to-br  from-purple-500 via-purple-600 to-purple-700 lg:h-[100vh] md:h-[80vh]  xs:h-[80vh]  relative rounded-2xl max-w-[97vw] mx-auto">
         <NavBar />
 
         <div
@@ -21,10 +21,11 @@ const Hero = () => {
               KAUAN ZAJACC
             </h2>
 
-            <h2 className="lg:absolute text-center lg:text-[189px]  left-0 bottom-[224px] lg:px-[6.7%] lg:word-spacing-[5rem]">
+            <h2 className="lg:absolute text-center lg:text-[25.5vh]  left-0 bottom-[30.5%] lg:px-[6.5%] lg:word-spacing-[5rem]">
               FRONT <span className="relative  lg:z-10 lg:pl-[5rem]">END</span>
             </h2>
-            <h2 className=" lg:absolute text-center  lg:text-[189px] mb-[3%]  bottom-0  right-0 lg:px-[6.7%] z-10">
+
+            <h2 className=" lg:absolute text-center   lg:text-[135.6%] mb-[3%]  bottom-0  right-0 lg:px-[6.5%] z-10">
               DEVELOPER{" "}
             </h2>
           </div>
