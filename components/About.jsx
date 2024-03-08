@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import EULD from "../public/eu_looking-down.png";
+import AlchemyIcon from "../public/alchemy.svg";
 
 const About = () => {
   const aboutMe = [
@@ -36,25 +37,24 @@ const About = () => {
             <h2 className="font-black text-purple-800 lg:text-[5rem] md:text-[3.5rem] xs:text-[1.5rem]">
               ABOUT ME
             </h2>
-            <p className="font-medium text-[22px]  md:text-[18px] sm:text-[13px] xm:text-[10px]">
+            <p className="font-medium lg:text-[32px] md:text-[20px] sm:text-[15px] xs:text-[13px] text-gray-800">
               Hey there! I'm Kauan, your friendly neighborrhood web developer,
               and I've got a serious love affair with crafting seamless digital
               experiences. Here's a sneak peek into what makes me tick in the
               tech world and what are my personal interests.
             </p>
-            <div>
-              {aboutMe.map((skills) => (
-                <div className="lg:mt-[80px] md:mt-[60px] sm:mt-[30px] xs:mt-[20px] lg:text-[32px]">
-                  <h3 className="text-purple-800 font-black  md:text-[20px] sm:text-[15px] xm:text-[13px]">
-                    {skills.skill}
-                  </h3>
-                  <p className="font-medium ] md:text-[18px] sm:text-[13px] xm:text-[10px]">
-                    {skills.description}
-                  </p>
-                </div>
-              ))}
-            </div>
           </div>
+
+          {aboutMe.map((skills) => (
+            <div className="lg:mt-[80px] md:mt-[60px] sm:mt-[30px] xs:mt-[20px] lg:text-[32px] md:text-[20px] sm:text-[15px] xs:text-[13px]items-center">
+              <div className="max-w-[90%]">
+                <h3 className="text-purple-800 font-black  ">{skills.skill}</h3>
+                <p className="font-medium  text-gray-800">
+                  {skills.description}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
