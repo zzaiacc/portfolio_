@@ -9,7 +9,7 @@ import NavBar from "./NavBar";
 const Hero = () => {
   return (
     <div className="m-[20px] align-middle lg:h-[100vh] md:h-[85vh] sm:min-h-[750px] max-w-[100vw] ">
-      <div className="bg-gradient-to-br  from-purple-500 via-purple-600 to-purple-700 lg:h-[100vh] md:h-[80vh]  xs:h-[80vh]  relative rounded-2xl max-w-[97vw] mx-auto">
+      <div className="bg-gradient-to-br  from-purple-500 via-purple-600 to-purple-700 lg:h-[100vh] md:h-[100vh]  xs:h-[80vh]  relative rounded-2xl max-w-[97vw] mx-auto">
         <NavBar />
 
         <div
