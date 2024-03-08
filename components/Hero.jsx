@@ -18,7 +18,7 @@ const Hero = () => {
         >
           <div>
             <h2 className="mb-[5%] text-yellow-300 text-center text-[5vw] ">
-              KAUAN ZAJAC
+              KAUAN ZAJACC
             </h2>
 
             <h2 className="lg:absolute text-center lg:mb-[5%]  left-0 bottom-[120px] lg:px-[180px] lg:tracking-[-10px] lg:word-spacing-[5rem]">
