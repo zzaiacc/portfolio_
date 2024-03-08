@@ -24,7 +24,7 @@ const Hero = () => {
             <h2 className="lg:absolute text-center lg:text-[189px] lg:mb-[5%]  left-0 bottom-[120px] lg:px-[94px] lg:word-spacing-[5rem]">
               FRONT <span className="relative  lg:z-10 lg:pl-[5rem]">END</span>
             </h2>
-            <h2 className=" lg:absolute text-center  mb-[3%]  bottom-0  right-0 lg:px-[94vw] z-10">
+            <h2 className=" lg:absolute text-center  lg:text-[189px] mb-[3%]  bottom-0  right-0 lg:px-[94px] z-10">
               DEVELOPER{" "}
             </h2>
           </div>
