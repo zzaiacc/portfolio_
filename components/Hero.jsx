@@ -21,10 +21,10 @@ const Hero = () => {
               KAUAN ZAJACC
             </h2>
 
-            <h2 className="lg:absolute text-center lg:mb-[5%]  left-0 bottom-[120px] lg:px-[200px] lg:word-spacing-[5rem]">
+            <h2 className="lg:absolute text-center lg:mb-[5%]  left-0 bottom-[120px] lg:px-[10vw] lg:word-spacing-[5rem]">
               FRONT <span className="relative  lg:z-10 lg:pl-[5rem]">END</span>
             </h2>
-            <h2 className=" lg:absolute text-center  mb-[3%]  bottom-0  right-0 lg:px-[180px] z-10">
+            <h2 className=" lg:absolute text-center  mb-[3%]  bottom-0  right-0 lg:px-[10vw] z-10">
               DEVELOPER{" "}
             </h2>
           </div>
