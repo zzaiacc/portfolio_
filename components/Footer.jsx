@@ -5,7 +5,7 @@ import KZFooter from "../public/kz_footer.svg";
 const Footer = () => {
   return (
     <footer className=" overflow-hidden mt-[200px]">
-      <div class="custom-shape-divider-top-1709668981 bg-purple-200 h-[70vh]">
+      <div class="custom-shape-divider-top-1709668981 bg-purple-200 pb-10">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -18,17 +18,17 @@ const Footer = () => {
             class="shape-fill"
           ></path>
         </svg>
-        <div className="grid lg:grid-flow-col  p-10 max-w-[1600px] lg:mx-auto flex-wrap justify-around tracking-widest">
-          <Image src={KZFooter} />
+        <div className="grid lg:grid-flow-col md:grid-cols-4 p-10 max-w-[1600px] lg:mx-auto flex-wrap justify-around tracking-widest">
+          <Image src={KZFooter} className="xs:mb-10" />
 
-          <div className="flex flex-col ">
+          <div className="flex flex-col mb-10">
             {/* //!PROJETOS */}
             <h2 className=" text-2xl font-medium text-purple-400">Projects</h2>
             <div className="flex flex-col text-gray-600 font-medium gap-2 mt-3">
               <a href="#"> Featured </a>
             </div>
           </div>
-          <div className=" flex flex-col">
+          <div className=" flex flex-col  mb-10">
             {/* //!CONTATO */}
             <h2 className="text-2xl font-medium  text-purple-400">
               Talk to Me
@@ -38,7 +38,7 @@ const Footer = () => {
               <a href="#">E-mail</a>
             </div>
           </div>
-          <div className=" flex flex-col ">
+          <div className=" flex flex-col  mb-10">
             {/* //!SOCIALS */}
             <h2 className="text-2xl font-medium text-purple-400">Socials</h2>
             <div className="flex flex-col text-gray-600 font-medium gap-2 mt-3">
