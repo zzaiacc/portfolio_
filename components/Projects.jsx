@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="max-w-[95vw] m-auto lg:mt-[110px] md:mt-[30px] ">
+    <div className="max-w-[95vw] m-auto lg:mt-[110px] md:mt-[30px] xs:mt-[30px]">
       <div className=" p-10">
-        <h1 className="font-black  text-purple-600 text-[5rem] lg:text-center lg:p-0 md:pl-[80px] lg:mb-10 md:mb-5 xs:text-center">
+        <h1 className="font-black  text-purple-600 md:text-[5vw] text-center  mb-10 md:mb-5  xs:text-[6vw]">
           FEATURED PROJECTS
         </h1>
 

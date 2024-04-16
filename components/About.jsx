@@ -46,7 +46,7 @@ const About = () => {
         {aboutMe.map((skills) => (
           <div className="lg:mt-[80px] md:mt-[60px] sm:mt-[30px] xs:mt-[20px] lg:text-[22] md:text-[20px] sm:text-[15px] xs:text-[13px]items-center">
             <div className="max-w-[90%]">
-              <h2 className="text-purple-800 font-black  ">{skills.skill}</h2>
+              <h1 className="text-purple-800 font-black  ">{skills.skill}</h1>
               <p className="font-medium  text-gray-800">{skills.description}</p>
             </div>
           </div>
