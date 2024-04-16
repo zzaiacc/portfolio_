@@ -1,11 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import KZ from "../public/KZ LOGO.png";
+import KZFooter from "../public/KZ_footer.svg";
+import { footerLinks } from "../data/footerLinks";
 
 const Footer = () => {
   return (
     <footer className=" overflow-hidden mt-[200px]">
-      <div class="custom-shape-divider-top-1709668981 bg-purple-800 h-[70vh]">
+      <div class="custom-shape-divider-top-1709668981 bg-purple-200 h-[70vh]">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -19,31 +20,32 @@ const Footer = () => {
           ></path>
         </svg>
         <div className="grid lg:grid-flow-col  p-10 max-w-[1600px] lg:mx-auto flex-wrap justify-around tracking-widest">
-          <Image src={KZ} />
+          <Image src={KZFooter} />
 
-          <div className="text-2xl   text-yellow-400">
-            <h2 className="font-medium"> Projects </h2>
+          <div className="flex flex-col ">
+            {/* //!PROJETOS */}
+            <h2 className=" text-2xl font-medium text-purple-400">Projects</h2>
+            <div className="flex flex-col text-gray-600 font-medium gap-2 mt-3">
+              <a href="#"> Featured </a>
+            </div>
           </div>
           <div className=" flex flex-col">
-            <h2 className="text-2xl font-medium  text-yellow-400">
-              Fale Comigo
+            {/* //!CONTATO */}
+            <h2 className="text-2xl font-medium  text-purple-400">
+              Talk to Me
             </h2>
-            <a href="#" className="text-white">
-              {" "}
-              E-mail
-            </a>
+            <div className="flex flex-col text-gray-600 font-medium gap-2 mt-3">
+              <a href="#"> WhatsApp </a>
+              <a href="#">E-mail</a>
+            </div>
           </div>
           <div className=" flex flex-col ">
-            <h2 className="text-2xl font-medium text-yellow-400">
-              Redes Sociais
-            </h2>
-            <a href="#" className="text-white">
-              Linkedin
-            </a>
-            <a href="#" className="text-white">
-              {" "}
-              Instagram
-            </a>
+            {/* //!SOCIALS */}
+            <h2 className="text-2xl font-medium text-purple-400">Socials</h2>
+            <div className="flex flex-col text-gray-600 font-medium gap-2 mt-3">
+              <a href="#">Linkedin</a>
+              <a href="#">Instagram</a>
+            </div>
           </div>
         </div>
       </div>
