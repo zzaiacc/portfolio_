@@ -24,9 +24,9 @@ const Hero = () => {
               UI/UX
             </h1>
             <h1 className=" lg:absolute text-center   lg:text-[135.6%]   lg:px-[6.5%]  bottom-[30.5%]">
-              UI/UX
+              UX/UI
             </h1>
-            <h1 className="lg:absolute text-center lg:text-[18.5vh] mb-[3%]  bottom-0  lg:word-spacing-[5rem] z-10 w-screen">
+            <h1 className="lg:absolute text-center lg:text-[18.5vh] mb-[3%]  bottom-0  lg:word-spacing-[5rem] z-10 w-[100%]">
               WEB DESIGNER
             </h1>
           </div>

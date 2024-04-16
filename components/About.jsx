@@ -32,9 +32,9 @@ const About = () => {
           <Image src={EULD} />
         </div>
         <div className="max-w-[75%]">
-          <h2 className="font-black text-purple-800 lg:text-[5rem] md:text-[3.5rem] xs:text-[1.5rem]">
+          <h1 className="font-black text-purple-800 lg:text-[5rem] md:text-[3.5rem] xs:text-[1.5rem]">
             ABOUT ME
-          </h2>
+          </h1>
           <p className="font-medium lg:text-[22] md:text-[20px] sm:text-[15px] xs:text-[13px] text-gray-800 ">
             Hey there! I'm Kauan, your friendly neighborrhood web developer, and
             I've got a serious love affair with crafting seamless digital
@@ -46,7 +46,9 @@ const About = () => {
         {aboutMe.map((skills) => (
           <div className="lg:mt-[80px] md:mt-[60px] sm:mt-[30px] xs:mt-[20px] lg:text-[22] md:text-[20px] sm:text-[15px] xs:text-[13px]items-center">
             <div className="max-w-[90%]">
-              <h1 className="text-purple-800 font-black  ">{skills.skill}</h1>
+              <h2 className="text-purple-800 font-black  text-[30px] tracking-widest">
+                {skills.skill}
+              </h2>
               <p className="font-medium  text-gray-800">{skills.description}</p>
             </div>
           </div>
