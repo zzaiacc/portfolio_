@@ -3,12 +3,11 @@ import KZ from "../public/KZ LOGO.png";
 import EuHero from "../public/portfolio_eu.png";
 import Image from "next/image";
 
-import styles from "../styles/Hero.module.css";
 import NavBar from "./NavBar";
 
 const Hero = () => {
   return (
-    <div className="m-[20px] align-middle lg:h-[100vh] md:h-[85vh] sm:min-h-[750px] max-w-[100vw] ">
+    <div className="mt-[20px] mx-[20px] align-middle lg:h-[100vh] md:h-[85vh] sm:min-h-[750px] max-w-[100vw] ">
       <div className="bg-gradient-to-br  from-purple-500 via-purple-600 to-purple-700 lg:h-[100vh] md:h-[100vh]  xs:h-[80vh]  relative rounded-2xl max-w-[97vw] mx-auto">
         <NavBar />
 
@@ -17,17 +16,19 @@ const Hero = () => {
           style={{ color: "#E8E0C9" }}
         >
           <div>
-            <h2 className="mb-[5%] text-yellow-300 text-center text-[5vw] ">
-              KAUAN ZAJACC
-            </h2>
+            <h1 className="mb-[5%] text-yellow-300 text-center text-[5vw] ">
+              KAUAN ZAJAC
+            </h1>
 
-            <h2 className="lg:absolute text-center lg:text-[25.5vh]  left-0 bottom-[30.5%] lg:px-[6.5%] lg:word-spacing-[5rem]">
-              FRONT <span className="relative  lg:z-10 lg:pl-[5rem]">END</span>
-            </h2>
-
-            <h2 className=" lg:absolute text-center   lg:text-[135.6%] mb-[3%]  bottom-0  right-0 lg:px-[6.5%] z-10">
-              DEVELOPER{" "}
-            </h2>
+            <h1 className=" lg:absolute text-center   lg:text-[135.6%]  right-0 bottom-[30.5%]   lg:px-[6.5%] z-10">
+              UI/UX
+            </h1>
+            <h1 className=" lg:absolute text-center   lg:text-[135.6%]   lg:px-[6.5%]  bottom-[30.5%]">
+              UI/UX
+            </h1>
+            <h1 className="lg:absolute text-center lg:text-[18.5vh] mb-[3%]  bottom-0  lg:word-spacing-[5rem] z-10 w-screen">
+              WEB DESIGNER
+            </h1>
           </div>
         </div>
         <div className="absolute bottom-0 left-0  right-0  flex px-[50px] lg:justify-center sm:justify-center ">

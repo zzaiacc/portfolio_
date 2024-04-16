@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Contrail+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Contrail+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bebas+Neue&family=Butterfly+Kids&family=Raleway:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,10 +10,15 @@ root {
   --background-end-rgb: 255, 255, 255;
 }
 
-h1,
-h2 {
+h1 {
   font-family: "Titillium Web" sans-serif;
   font-weight: 900;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -21,5 +26,5 @@ p,
 h3,
 h4,
 a {
-  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
 }

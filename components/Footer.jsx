@@ -18,21 +18,25 @@ const Footer = () => {
             class="shape-fill"
           ></path>
         </svg>
-        <div className="grid lg:grid-flow-col  p-10 max-w-[1600px] lg:mx-auto flex-wrap">
+        <div className="grid lg:grid-flow-col  p-10 max-w-[1600px] lg:mx-auto flex-wrap justify-around tracking-widest">
           <Image src={KZ} />
 
-          <div className="text-2xl font-black  text-yellow-400">
-            <h2> PROJETOS </h2>
+          <div className="text-2xl   text-yellow-400">
+            <h2 className="font-medium"> Projects </h2>
           </div>
           <div className=" flex flex-col">
-            <h2 className="text-2xl font-black  text-yellow-400">CONTATO</h2>
+            <h2 className="text-2xl font-medium  text-yellow-400">
+              Fale Comigo
+            </h2>
             <a href="#" className="text-white">
               {" "}
               E-mail
             </a>
           </div>
           <div className=" flex flex-col ">
-            <h2 className="text-2xl font-black text-yellow-400"> REDES</h2>
+            <h2 className="text-2xl font-medium text-yellow-400">
+              Redes Sociais
+            </h2>
             <a href="#" className="text-white">
               Linkedin
             </a>
