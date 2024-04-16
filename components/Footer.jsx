@@ -18,13 +18,13 @@ const Footer = () => {
             class="shape-fill"
           ></path>
         </svg>
-        <div className="grid lg:grid-flow-col md:grid-cols-4 p-10 max-w-[1600px] lg:mx-auto flex-wrap justify-around tracking-widest">
+        <div className="grid lg:grid-flow-col md:grid-cols-4 p-10 max-w-[90vw] mx-auto flex-wrap justify-around tracking-widest">
           <Image src={KZFooter} className="xs:mb-10" />
 
-          <div className="flex flex-col mb-10">
+          <div className="flex flex-col mb-10 ">
             {/* //!PROJETOS */}
             <h2 className=" text-2xl font-medium text-purple-400">Projects</h2>
-            <div className="flex flex-col text-gray-600 font-medium gap-2 mt-3">
+            <div className="flex flex-col text-gray-600 font-medium gap-2 mt-3 w-fit">
               <a href="#"> Featured </a>
             </div>
           </div>
@@ -33,15 +33,15 @@ const Footer = () => {
             <h2 className="text-2xl font-medium  text-purple-400">
               Talk to Me
             </h2>
-            <div className="flex flex-col text-gray-600 font-medium gap-2 mt-3">
+            <span className="flex flex-col text-gray-600 font-medium gap-2 mt-3 w-fit">
               <a href="#"> WhatsApp </a>
               <a href="#">E-mail</a>
-            </div>
+            </span>
           </div>
           <div className=" flex flex-col  mb-10">
             {/* //!SOCIALS */}
-            <h2 className="text-2xl font-medium text-purple-400">Socials</h2>
-            <div className="flex flex-col text-gray-600 font-medium gap-2 mt-3">
+            <h2 className="text-2xl font-medium text-purple-400 ">Socials</h2>
+            <div className="flex flex-col text-gray-600 font-medium gap-2 mt-3 w-fit">
               <a href="#">Linkedin</a>
               <a href="#">Instagram</a>
             </div>
