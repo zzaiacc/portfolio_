@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import KZFooter from "../public/KZ_footer.svg";
-import { footerLinks } from "../data/footerLinks";
 
 const Footer = () => {
   return (
