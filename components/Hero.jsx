@@ -1,5 +1,4 @@
 import React from "react";
-import KZ from "../public/KZ LOGO.png";
 import EuHero from "../public/portfolio_eu.png";
 import Image from "next/image";
 
