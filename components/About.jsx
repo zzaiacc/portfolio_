@@ -35,7 +35,7 @@ const About = () => {
           <h1 className="font-black text-purple-800 lg:text-[5rem] md:text-[3.5rem] xs:text-[1.5rem]">
             ABOUT ME
           </h1>
-          <p className="font-medium lg:text-[22] md:text-[20px] sm:text-[15px] xs:text-[13px] text-gray-600 ">
+          <p className="font-medium lg:text-[22px] md:text-[20px] sm:text-[15px] xs:text-[13px] text-gray-600 ">
             Hey there! I'm Kauan, your friendly neighborrhood web developer, and
             I've got a serious love affair with crafting seamless digital
             experiences. Here's a sneak peek into what makes me tick in the tech
@@ -44,12 +44,14 @@ const About = () => {
         </div>
 
         {aboutMe.map((skills) => (
-          <div className="lg:mt-[80px] md:mt-[60px] sm:mt-[30px] xs:mt-[20px] lg:text-[22] md:text-[20px] sm:text-[15px] xs:text-[13px]items-center">
-            <div className="max-w-[90%]">
-              <h3 className="text-purple-800 font-medium  text-[30px] tracking-widest">
+          <div className="lg:mt-[80px] md:mt-[60px] sm:mt-[30px] xs:mt-[50px] items-center">
+            <div className="max-w-[90%] flex flex-col gap-2">
+              <h3 className="text-purple-800 font-medium lg:text-[4rem] md:text-[3rem] xs:text-[1.2rem] tracking-widest">
                 {skills.skill}
               </h3>
-              <p className="font-medium  text-gray-600">{skills.description}</p>
+              <p className="font-medium  text-gray-600 lg:text-[22px] md:text-[20px] xs:text-[13px]">
+                {skills.description}
+              </p>
             </div>
           </div>
         ))}

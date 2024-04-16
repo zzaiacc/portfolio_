@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className="max-w-[95vw] m-auto lg:mt-[110px] md:mt-[30px] xs:mt-[30px]">
       <div className=" p-10">
-        <h1 className="font-black  text-purple-600 md:text-[5vw] text-center  mb-10 md:mb-5  xs:text-[6vw]">
+        <h1 className="font-black  text-purple-600 md:text-[5vw] text-center  mb-10 md:mb-5  xs:text-[30px] ">
           FEATURED PROJECTS
         </h1>
 
