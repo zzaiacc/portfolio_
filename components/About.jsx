@@ -26,7 +26,7 @@ const About = () => {
     },
   ];
   return (
-    <div className="max-w-[85vw] m-auto mt-[110px]">
+    <div className="max-w-[90vw] m-auto mt-[110px]">
       <div className="bg-orange-100 relative py-[59px] px-[30px]">
         <div className="absolute top-0 right-0 w-[30%] h-[400px]">
           <Image src={EULD} />
@@ -45,8 +45,8 @@ const About = () => {
 
         {aboutMe.map((skills) => (
           <div className="lg:mt-[80px] md:mt-[60px] sm:mt-[30px] xs:mt-[50px] items-center">
-            <div className="max-w-[90%] flex flex-col gap-2">
-              <h3 className="text-purple-800 font-medium lg:text-[4rem] md:text-[3rem] xs:text-[1.2rem] tracking-widest">
+            <div className="max-w-[88%] flex flex-col gap-2">
+              <h3 className="text-purple-800 font-medium lg:text-[2.4rem] md:text-[3rem] xs:text-[1.2rem] tracking-widest">
                 {skills.skill}
               </h3>
               <p className="font-medium  text-gray-600 lg:text-[22px] md:text-[20px] xs:text-[13px]">
