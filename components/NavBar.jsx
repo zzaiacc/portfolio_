@@ -1,5 +1,5 @@
 import { useState } from "react";
-import KZ from "../public/KZ LOGO.png";
+import KZ from "../public/KZ.svg";
 
 import styles from "../styles/Hero.module.css";
 import Image from "next/image";
