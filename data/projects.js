@@ -18,6 +18,6 @@ export const projects = [
     desc: "School for kids",
     type: "Website Design",
     img: "/zaiac-hero.png",
-    link: "https://dribbble.com/shots/24004801-School-for-Kids-Project",
+    link: "https://dribbble.com/shots/24039620-TECH-COMPANY-WEBSITE",
   },
 ];
